@@ -14,7 +14,6 @@ public class Cell implements Serializable {
     public String getCellType() {
         return cellType;
     }
-
     public void setCellType(String cellType) {
         this.cellType = cellType;
     }

@@ -7,8 +7,6 @@ public class TestGameEngine {
     @Test
     void testGetSize() {
         GameEngine ge = new GameEngine(10);
-
         assertEquals(10, ge.getSize());
-
     }
 }
